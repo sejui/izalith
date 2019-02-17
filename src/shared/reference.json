@@ -1,0 +1,45 @@
+{
+  "companyInfo": {
+    "name": "izalith",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "logo": "",
+    "indexImg": "./assets/logo1.png"
+  },
+  "service": {
+    "briefTitle": "Who and What?",
+    "briefContent": "Located in Vancouver, BC izalith helps business to transform an idea into a real product",
+    "serviceTitle": "we specialize in",
+    "tags1": ["software Devlopment", "web design", "IOS App Development"],
+    "tags2": ["Frontend Development", "DatabaseManagement", "API development"],
+    "statement": "From concept to validated prototype in six weeks"
+  },
+  "work": [
+    { "name": "Richmond project", "link": "0", "bgImg": "./assets/mockup.png" },
+    {
+      "name": "Integrated Invoicing Solution",
+      "link": "0",
+      "bgImg": "./assets/invoicing.png"
+    },
+    { "name": "Payroll Solutions", "link": "", "bgImg": "" }
+  ],
+  "team": {
+    "founderName": "Guillermo Sanchez",
+    "founderTitle": "CEO, Senior full-stack developer",
+    "founderPortrait": "./assets/teammember.png",
+    "teamBrief": [
+      "We help our clients find new ways to solve business challenges through lean research, data-driven insights, and iterative design, rooted in a deep appreciation for the end user.",
+      "We help our clients find new ways to solve business challenges through lean research, data-driven insights, and iterative design, rooted in a deep appreciation for the end user."
+    ],
+
+    "teamStatements": [
+      {
+        "title": "Collaboration over control",
+        "content": "Working with our clients means co-creating solutions through collective expertise and insight."
+      },
+      {
+        "title": "Small teams for better results",
+        "content": "Steve Jobs insisted that focused innovation required focused teams. We don’t argue with Steve."
+      }
+    ]
+  }
+}

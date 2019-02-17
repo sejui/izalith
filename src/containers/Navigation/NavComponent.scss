@@ -1,0 +1,90 @@
+@import "../../shared/variables";
+
+nav {
+  float: right;
+  position: fixed;
+  right: 10px;
+}
+
+.navStyle-expand a {
+  font-size: 1.2em;
+  color: #4a4a4a;
+}
+
+.navStyle-hamburger {
+  display: none;
+}
+
+.navCenter {
+  margin: 55px auto 0 auto;
+}
+
+#navigation {
+  position: fixed;
+  z-index: 99;
+}
+
+.menu div {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+
+.menu {
+  position: fixed;
+  right: 19px;
+  top: 10px;
+}
+
+.menuPage {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #eee;
+
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+/* hover effect */
+.anchorBox {
+  padding: 0;
+  display: inline-block;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.navStyle-expand a:hover {
+  color: #45ab94;
+  text-decoration: none;
+}
+
+.anchorBox:hover > .underline:before {
+  transform: scaleX(1);
+}
+
+.underline {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0);
+  color: white;
+  z-index: 0;
+  width: 100%;
+  height: 5px;
+}
+.underline:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #45ab94;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  transition: transform 0.3s ease-out;
+}

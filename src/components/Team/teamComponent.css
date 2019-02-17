@@ -1,0 +1,67 @@
+#company ::before {
+  clear: both; }
+
+#company {
+  height: 100vh;
+  padding: 50px 20px 0px 20px; }
+  #company h2 {
+    color: #45ab94;
+    font-size: 1.2em;
+    font-family: "Roboto", sans-serif; }
+  #company h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+    text-align: center; }
+  #company h4 {
+    font-size: 1em;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 15px;
+    color: #4a4a4a;
+    text-align: center; }
+  #company .teamDescribeDoc {
+    margin-top: 10px; }
+    #company .teamDescribeDoc p {
+      font-size: 0.8em;
+      line-height: 23px;
+      color: #4a4a4a; }
+  #company span {
+    color: #4a4a4a;
+    font-size: 0.8em; }
+  #company .beliefs p {
+    color: #9b9b9b;
+    font-size: 0.8em; }
+  @media only screen and (min-width: 415px) {
+    #company {
+      padding: 100px 20px 0px 20px; } }
+  @media only screen and (min-width: 767px) {
+    #company .teamDescribeDoc,
+    #company .teamDescribeSub {
+      margin: 0 auto; }
+    #company .beliefSection {
+      margin-top: 50px; } }
+  @media only screen and (min-width: 991px) {
+    #company .teamDescribeSub {
+      padding: 0;
+      margin: 0; }
+    #company .teamDescribeDoc {
+      margin: 80px 0 0px 120px;
+      font-size: 1.33em; }
+      #company .teamDescribeDoc p {
+        line-height: 27px; }
+    #company .beliefSection .beliefs p {
+      font-size: 1em; }
+    #company .beliefSection .beliefs div {
+      margin-right: 120px; }
+    #company .beliefSection h2 {
+      font-size: 1.33333em; } }
+  @media only screen and (min-height: 1000px) {
+    #company {
+      padding-top: 20%; } }
+
+#portrait {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+  padding: 20px; }

@@ -1,0 +1,86 @@
+@import "../../shared/variables";
+.workDetail {
+  width: 100vw;
+
+  .backBtn {
+    height: 100vh;
+    border-right: #eee solid 0.5px;
+
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+
+    i {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+    }
+  }
+
+  .backBtn:hover {
+    background-color: $highlightColor;
+    border: none;
+    i {
+      .color {
+        fill: white;
+      }
+    }
+  }
+
+  .content {
+    padding: 0;
+  }
+  .workContent {
+    padding: 20px;
+    margin: 0 auto;
+    line-height: 25px;
+  }
+
+  .contentSection {
+    margin-bottom: 50px;
+    h2 {
+      font-family: $openSans;
+      font-size: 1.5em;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    p {
+      font-family: $roboto;
+      margin-bottom: 20px;
+      color: $fontColor;
+    }
+  }
+  .banner {
+    padding: 100px;
+    h1,
+    p {
+      font-family: $openSans;
+      color: white;
+
+      text-align: center;
+    }
+    h1 {
+      font-size: 2em;
+      font-weight: bold;
+    }
+  }
+
+  .backBtn:hover,
+  .backBtn:focus,
+  .backBtn:active {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    background-color: #50e3c2;
+    background-color: $highlightColor;
+    color: white;
+  }
+}

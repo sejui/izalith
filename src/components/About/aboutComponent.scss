@@ -1,0 +1,169 @@
+@import "../../shared/variables";
+
+#service {
+  height: 100vh;
+  padding-top: 35px;
+
+  .logo {
+    max-width: 70px;
+    margin-left: 20px;
+  }
+
+  .wrapper {
+    padding: 75px 0 0 0;
+  }
+
+  .whoNwhat {
+    font-family: $openSans;
+    font-size: $WhoNWhat;
+  }
+
+  .companyBreif {
+    display: inline-block;
+    margin: 20px 0 50px 0;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  h2 {
+    font-family: $roboto;
+    font-size: $skillFont;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: $WhoNWhatSub;
+    color: #7d7d7d;
+    line-height: 33px;
+  }
+  li {
+    line-height: 47px;
+  }
+
+  // for phone devices
+  @media only screen and (max-width: 415px) {
+    padding-top: 15px;
+
+    .wrapper {
+      padding: 0;
+    }
+
+    .companyBreif {
+      padding: 0;
+      margin: 10px 0;
+    }
+    .logo {
+      width: 50px;
+      margin: 0 0 15px 0;
+    }
+    .whoNwhat {
+      font-size: 1.3em;
+    }
+    h2 {
+      text-align: -webkit-center;
+      font-size: 1.3em;
+    }
+    p,
+    li {
+      text-align: -webkit-center;
+      // margin: 10 auto;
+      font-size: 0.8em;
+      line-height: 28px;
+    }
+
+    ul {
+      margin: 0;
+    }
+
+    .specializeContent {
+      display: block;
+    }
+    .specializeContent2 {
+      display: block;
+      float: none;
+    }
+  }
+  #slogan::before {
+    clear: both;
+  }
+  #slogan p {
+    color: #45ab94;
+    font-size: 1em;
+    text-align: center;
+  }
+
+  // specialize details for larger phone size
+  @media only screen and (min-height: 666px) and (max-width: 415px) {
+    .logo {
+      margin-bottom: 50px;
+    }
+
+    h2,
+    .whoNwhat {
+      font-size: 1.5em;
+    }
+    p {
+      font-size: 1em;
+      line-height: 38px;
+    }
+    li {
+      font-size: 0.9em;
+      line-height: 38px;
+    }
+
+    #slogan p {
+      font-size: 1.2em;
+    }
+  }
+
+  // for devices larger than phone, including tablets and desktop
+  @media only screen and (min-width: 416px) {
+    h2,
+    p,
+    li {
+      text-align: left;
+    }
+    .whoNwhat {
+      font-size: 2em;
+    }
+
+    h2 {
+      font-size: 1.8em;
+    }
+
+    .wrapper {
+      padding: 105px 0 0 0;
+    }
+
+    .specializeContent {
+      display: inline-block;
+    }
+    .specializeContent2 {
+      display: inline-block;
+      float: none;
+    }
+
+    .specializeContent2::after {
+      clear: both;
+    }
+
+    #slogan {
+      margin-top: 100px;
+    }
+
+    #slogan p {
+      font-size: 1.7em;
+    }
+  }
+
+  @media only screen and (min-width: 960px) {
+    .wrapper {
+      padding: 35vh 0 0 0;
+    }
+    .companyBreif {
+      padding: 0 50px;
+    }
+  }
+}

@@ -1,0 +1,49 @@
+.work {
+  padding: 10vh 0 0 0;
+  height: 100vh;
+  width: 100%;
+  background-color: #f4f4f4; }
+  .work h1 {
+    font-size: 4em;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold; }
+  .work img {
+    max-height: 60%;
+    width: auto;
+    display: block; }
+  .work .project {
+    position: absolute;
+    top: 500px; }
+  .work .viewBtn {
+    padding: 12px 20px;
+    font-size: 1.5em;
+    font-weight: normal;
+    border: solid #45ab94 1px;
+    border-radius: 10px;
+    margin: 30px 0;
+    background-color: rgba(0, 0, 0, 0); }
+    .work .viewBtn a {
+      color: #45ab94; }
+  .work .viewBtn:hover > a {
+    color: white;
+    text-decoration: none; }
+  .work .viewBtn:hover {
+    background-color: #45ab94;
+    color: white;
+    border: solid #45ab94 1px; }
+  @media only screen and (max-width: 414px) {
+    .work .project {
+      top: 70%;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto; }
+    .work h1 {
+      font-size: 2em;
+      text-align: center; }
+    .work .viewBtn {
+      margin: 30px auto;
+      display: block;
+      font-size: 1em;
+      padding: 15px;
+      border-radius: 10px; } }

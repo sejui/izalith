@@ -1,0 +1,61 @@
+.workDetail {
+  width: 100vw; }
+  .workDetail .backBtn {
+    height: 100vh;
+    border-right: #eee solid 0.5px;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color; }
+    .workDetail .backBtn i {
+      position: absolute;
+      top: 50%;
+      left: 50%; }
+  .workDetail .backBtn:hover {
+    background-color: #45ab94;
+    border: none; }
+    .workDetail .backBtn:hover i .color {
+      fill: white; }
+  .workDetail .content {
+    padding: 0; }
+  .workDetail .workContent {
+    padding: 20px;
+    margin: 0 auto;
+    line-height: 25px; }
+  .workDetail .contentSection {
+    margin-bottom: 50px; }
+    .workDetail .contentSection h2 {
+      font-family: "Open Sans", sans-serif;
+      font-size: 1.5em;
+      font-weight: bold;
+      margin-bottom: 20px; }
+    .workDetail .contentSection p {
+      font-family: "Roboto", sans-serif;
+      margin-bottom: 20px;
+      color: #4a4a4a; }
+  .workDetail .banner {
+    padding: 100px; }
+    .workDetail .banner h1,
+    .workDetail .banner p {
+      font-family: "Open Sans", sans-serif;
+      color: white;
+      text-align: center; }
+    .workDetail .banner h1 {
+      font-size: 2em;
+      font-weight: bold; }
+  .workDetail .backBtn:hover,
+  .workDetail .backBtn:focus,
+  .workDetail .backBtn:active {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    background-color: #50e3c2;
+    background-color: #45ab94;
+    color: white; }
